@@ -1,4 +1,4 @@
-/*
+﻿/*
   Hookslink and Vextroo Group link page
   -------------------------------------
   To change a link, edit the LINKS list below. The buttons on the page are built from it.
@@ -12,8 +12,8 @@
 
 const LINKS = {
   hookslink: [
-    { type: "facebook",  label: "Facebook",  handle: "Hookslink",          url: "https://www.facebook.com/share/9dvBCWFuXyN1ytF7/" },
-    { type: "instagram", label: "Instagram", handle: "@hookslink",         url: "https://www.instagram.com/hookslink" },
+    { type: "facebook",  label: "Facebook",  handle: "Hookslink",          url: "https://web.facebook.com/profile.php?id=61579040904026" },
+    { type: "instagram", label: "Instagram", handle: "@hooks_link",        url: "https://www.instagram.com/hooks_link/" },
     { type: "web",       label: "Website",   handle: "hookslink.com",      url: "https://hookslink.com" },
     { type: "tiktok",    label: "TikTok",    handle: "@hookslink",         url: "https://www.tiktok.com/@hookslink" },
     { type: "mail",      label: "Email",     handle: "info@hookslink.com", url: "mailto:info@hookslink.com" }
@@ -89,3 +89,4 @@ const LINKS = {
   document.getElementById("hk-rows").innerHTML = LINKS.hookslink.map(buildButton).join("");
   document.getElementById("vx-rows").innerHTML = LINKS.vextroo.map(buildButton).join("");
 })();
+
